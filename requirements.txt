@@ -1,1 +1,2 @@
 aiohttp==2.2.5
+cx-Freeze==5.0.2

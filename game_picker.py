@@ -11,7 +11,7 @@ import urllib.request
 
 STEAM_API_KEY = '8E4ADBD9A8BB2F63A57DF91B24260A12'
 MULTIPLAYER_CATEGORY_IDS = [1, 9]
-DATA_DIR = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'data')
+DATA_DIR = os.path.join(os.getcwd(), 'data')
 
 
 if not os.path.exists(DATA_DIR):
